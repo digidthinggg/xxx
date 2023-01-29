@@ -17,10 +17,12 @@ contract Factory is IFactory, WalletDeployer, LayerDeployer {
   function createWallet(
     address layer
   ) external override returns (address wallet) {
+    //
   }
 
   function createLayer(
     address wallet
   ) external override returns (address layer) {
+    //
   }
 }
