@@ -7,9 +7,7 @@ interface IWalletDeployer {
     external
     view
     returns(
-      address factory,
-
-      // Wallet needs layer addr
-      address layer
+      address _factoryAddr,
+      address _layerAddr
     );
 }

@@ -4,13 +4,13 @@ pragma solidity ^0.8.7;
 
 contract LayerDeployer {
   struct Parameters {
-    address factory;
-    address wallet;
+    address factoryAddr,
+    address walletAddr
   }
 
   function deploy(
-    address factory,
-    address wallet
-  ) internal returns (address layer) {
+    address _factoryAddr,
+    address _walletAddr
+  ) internal returns (address layerAddr) {
   }
 }
